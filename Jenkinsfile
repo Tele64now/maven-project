@@ -1,4 +1,5 @@
 pipeline {
+	/*New update*/
     agent any
     stages{
         stage('Build'){
