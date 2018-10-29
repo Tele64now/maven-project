@@ -20,7 +20,7 @@ pipeline {
                 build job: 'deploy-to-staging'
             }
         }
-    }
+    
         stage ('Deploy to Prod') {
             steps{
              timeout(time:5, unit:'DAYS') {
